@@ -2,36 +2,54 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-02T19:22:52 IST" name="Shopping Site Check" finished-at="2024-09-02T19:22:57 IST" duration-ms="5053">
+  <suite started-at="2024-09-03T02:33:17 IST" name="Selenium Grid Multi-Browser Suite" finished-at="2024-09-03T02:33:22 IST" duration-ms="5551">
     <groups>
     </groups>
-    <test started-at="2024-09-02T19:22:52 IST" name="My Test" finished-at="2024-09-02T19:22:57 IST" duration-ms="5053">
-      <class name="com.project.Shopping_sites">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.project.Shopping_sites@235834f2]" started-at="2024-09-02T19:22:52 IST" name="beforeTest" finished-at="2024-09-02T19:22:53 IST" duration-ms="1799" status="PASS">
+    <test started-at="2024-09-03T02:33:17 IST" name="Chrome Test" finished-at="2024-09-03T02:33:21 IST" duration-ms="4265">
+      <class name="com.Grid.AMAZON">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:33:17 IST" name="beforeMethod" finished-at="2024-09-03T02:33:19 IST" duration-ms="2558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="Amazon()[pri:1, instance:com.project.Shopping_sites@235834f2]" started-at="2024-09-02T19:22:53 IST" name="Amazon" finished-at="2024-09-02T19:22:55 IST" duration-ms="1253" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:33:19 IST" name="f" finished-at="2024-09-03T02:33:21 IST" duration-ms="1400" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Amazon -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.project.Shopping_sites@235834f2]" started-at="2024-09-02T19:22:55 IST" name="afterMethod" finished-at="2024-09-02T19:22:55 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="Filpkart()[pri:2, instance:com.project.Shopping_sites@235834f2]" started-at="2024-09-02T19:22:55 IST" name="Filpkart" finished-at="2024-09-02T19:22:57 IST" duration-ms="1719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Filpkart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.project.Shopping_sites@235834f2]" started-at="2024-09-02T19:22:57 IST" name="afterMethod" finished-at="2024-09-02T19:22:57 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.project.Shopping_sites@235834f2]" started-at="2024-09-02T19:22:57 IST" name="afterTest" finished-at="2024-09-02T19:22:57 IST" duration-ms="121" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:33:21 IST" name="afterTest" finished-at="2024-09-03T02:33:21 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.project.Shopping_sites -->
-    </test> <!-- My Test -->
-  </suite> <!-- Shopping Site Check -->
+      </class> <!-- com.Grid.AMAZON -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2024-09-03T02:33:17 IST" name="Edge Test" finished-at="2024-09-03T02:33:22 IST" duration-ms="5551">
+      <class name="com.Grid.AMAZON">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:33:17 IST" name="beforeMethod" finished-at="2024-09-03T02:33:19 IST" duration-ms="2558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:33:19 IST" name="f" finished-at="2024-09-03T02:33:21 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:33:21 IST" name="afterTest" finished-at="2024-09-03T02:33:22 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Grid.AMAZON -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Selenium Grid Multi-Browser Suite -->
 </testng-results>
