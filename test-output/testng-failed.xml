@@ -13,4 +13,16 @@
       </class> <!-- com.Grid.AMAZON -->
     </classes>
   </test> <!-- Edge Test(failed) -->
+  <test thread-count="3" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Grid.AMAZON">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.Grid.AMAZON -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [Selenium Grid Multi-Browser Suite] -->

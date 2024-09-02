@@ -19,7 +19,7 @@ public class AMAZON {
 	@Test
 	public void f() {
 
-		driver.get("https://www.google.com");
+		driver.get("https://www.amazon.in/");
 		String title = driver.getTitle();
 		System.out.println("The page title is: " + title);
 		// Add assertions to verify the title or other page elements

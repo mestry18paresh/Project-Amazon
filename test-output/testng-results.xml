@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-03T02:33:17 IST" name="Selenium Grid Multi-Browser Suite" finished-at="2024-09-03T02:33:22 IST" duration-ms="5551">
+  <suite started-at="2024-09-03T02:40:22 IST" name="Selenium Grid Multi-Browser Suite" finished-at="2024-09-03T02:40:29 IST" duration-ms="6854">
     <groups>
     </groups>
-    <test started-at="2024-09-03T02:33:17 IST" name="Chrome Test" finished-at="2024-09-03T02:33:21 IST" duration-ms="4265">
+    <test started-at="2024-09-03T02:40:22 IST" name="Chrome Test" finished-at="2024-09-03T02:40:28 IST" duration-ms="6325">
       <class name="com.Grid.AMAZON">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:33:17 IST" name="beforeMethod" finished-at="2024-09-03T02:33:19 IST" duration-ms="2558" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:40:22 IST" name="beforeMethod" finished-at="2024-09-03T02:40:25 IST" duration-ms="2894" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:33:19 IST" name="f" finished-at="2024-09-03T02:33:21 IST" duration-ms="1400" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:40:25 IST" name="f" finished-at="2024-09-03T02:40:28 IST" duration-ms="3021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:33:21 IST" name="afterTest" finished-at="2024-09-03T02:33:21 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@7b98f307]" started-at="2024-09-03T02:40:28 IST" name="afterTest" finished-at="2024-09-03T02:40:28 IST" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.Grid.AMAZON -->
     </test> <!-- Chrome Test -->
-    <test started-at="2024-09-03T02:33:17 IST" name="Edge Test" finished-at="2024-09-03T02:33:22 IST" duration-ms="5551">
+    <test started-at="2024-09-03T02:40:22 IST" name="Edge Test" finished-at="2024-09-03T02:40:29 IST" duration-ms="6854">
       <class name="com.Grid.AMAZON">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:33:17 IST" name="beforeMethod" finished-at="2024-09-03T02:33:19 IST" duration-ms="2558" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:40:22 IST" name="beforeMethod" finished-at="2024-09-03T02:40:25 IST" duration-ms="2895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:33:19 IST" name="f" finished-at="2024-09-03T02:33:21 IST" duration-ms="1550" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:40:25 IST" name="f" finished-at="2024-09-03T02:40:27 IST" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:33:21 IST" name="afterTest" finished-at="2024-09-03T02:33:22 IST" duration-ms="1383" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@6989da5e]" started-at="2024-09-03T02:40:27 IST" name="afterTest" finished-at="2024-09-03T02:40:29 IST" duration-ms="1401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
