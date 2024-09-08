@@ -1,182 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-03T02:57:15 IST" name="Selenium Grid Multi-Browser Suite" finished-at="2024-09-03T02:57:18 IST" duration-ms="2368">
+  <suite started-at="2024-09-08T12:02:37 IST" name="Shopping Site Check" finished-at="2024-09-08T12:02:47 IST" duration-ms="10102">
     <groups>
     </groups>
-    <test started-at="2024-09-03T02:57:15 IST" name="Edge Test" finished-at="2024-09-03T02:57:16 IST" duration-ms="1058">
-      <class name="com.Grid.AMAZON">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@dd8ba08]" started-at="2024-09-03T02:57:15 IST" name="beforeMethod" finished-at="2024-09-03T02:57:16 IST" duration-ms="985" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary 
-Host info: host: '6a0b384a838a', ip: '172.20.0.3'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge}]}]
-Capabilities {browserName: MicrosoftEdge}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary 
-Host info: host: '6a0b384a838a', ip: '172.20.0.3'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge}]}]
-Capabilities {browserName: MicrosoftEdge}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.Grid.AMAZON.beforeMethod(AMAZON.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@dd8ba08]" started-at="2024-09-03T02:57:16 IST" name="f" finished-at="2024-09-03T02:57:16 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary 
-Host info: host: '6a0b384a838a', ip: '172.20.0.3'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge}]}]
-Capabilities {browserName: MicrosoftEdge}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary 
-Host info: host: '6a0b384a838a', ip: '172.20.0.3'
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '11.0.20'
-Driver info: driver.version: unknown
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge}]}]
-Capabilities {browserName: MicrosoftEdge}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:152)
-at com.Grid.AMAZON.beforeMethod(AMAZON.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@dd8ba08]" started-at="2024-09-03T02:57:16 IST" name="afterTest" finished-at="2024-09-03T02:57:16 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.Grid.AMAZON -->
-    </test> <!-- Edge Test -->
-    <test started-at="2024-09-03T02:57:15 IST" name="Chrome Test" finished-at="2024-09-03T02:57:18 IST" duration-ms="2368">
-      <class name="com.Grid.AMAZON">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.Grid.AMAZON@123ef382]" started-at="2024-09-03T02:57:15 IST" name="beforeMethod" finished-at="2024-09-03T02:57:17 IST" duration-ms="1378" status="PASS">
+    <test started-at="2024-09-08T12:02:37 IST" name="ChromeTests" finished-at="2024-09-08T12:02:42 IST" duration-ms="5369">
+      <class name="com.amazon.MultiBrowserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.MultiBrowserTest@402bba4f]" started-at="2024-09-08T12:02:37 IST" name="setUp" finished-at="2024-09-08T12:02:39 IST" duration-ms="1951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,74 +17,47 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.Grid.AMAZON@123ef382]" started-at="2024-09-03T02:57:17 IST" name="f" finished-at="2024-09-03T02:57:17 IST" duration-ms="837" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a393af8db654f3f25b61e069566c62ec, get {url=https://www.amazon.in/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:35925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 115.0.5790.110, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a393af8db654f3f25b61e069566c62ec]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a393af8db654f3f25b61e069566c62ec, get {url=https://www.amazon.in/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:35925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 115.0.5790.110, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a393af8db654f3f25b61e069566c62ec
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at com.Grid.AMAZON.f(AMAZON.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- setUp -->
+        <test-method signature="testExample()[pri:0, instance:com.amazon.MultiBrowserTest@402bba4f]" started-at="2024-09-08T12:02:39 IST" name="testExample" finished-at="2024-09-08T12:02:42 IST" duration-ms="3175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Grid.AMAZON@123ef382]" started-at="2024-09-03T02:57:18 IST" name="afterTest" finished-at="2024-09-03T02:57:18 IST" duration-ms="96" status="PASS">
+        </test-method> <!-- testExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.MultiBrowserTest@402bba4f]" started-at="2024-09-08T12:02:42 IST" name="tearDown" finished-at="2024-09-08T12:02:42 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.amazon.MultiBrowserTest@402bba4f]" started-at="2024-09-08T12:02:42 IST" name="afterTest" finished-at="2024-09-08T12:02:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.Grid.AMAZON -->
-    </test> <!-- Chrome Test -->
-  </suite> <!-- Selenium Grid Multi-Browser Suite -->
+      </class> <!-- com.amazon.MultiBrowserTest -->
+    </test> <!-- ChromeTests -->
+    <test started-at="2024-09-08T12:02:42 IST" name="EdgeTests" finished-at="2024-09-08T12:02:47 IST" duration-ms="4703">
+      <class name="com.amazon.MultiBrowserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.amazon.MultiBrowserTest@6d763516]" started-at="2024-09-08T12:02:42 IST" name="setUp" finished-at="2024-09-08T12:02:44 IST" duration-ms="1486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExample()[pri:0, instance:com.amazon.MultiBrowserTest@6d763516]" started-at="2024-09-08T12:02:44 IST" name="testExample" finished-at="2024-09-08T12:02:46 IST" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.MultiBrowserTest@6d763516]" started-at="2024-09-08T12:02:46 IST" name="tearDown" finished-at="2024-09-08T12:02:47 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.amazon.MultiBrowserTest@6d763516]" started-at="2024-09-08T12:02:47 IST" name="afterTest" finished-at="2024-09-08T12:02:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.amazon.MultiBrowserTest -->
+    </test> <!-- EdgeTests -->
+  </suite> <!-- Shopping Site Check -->
 </testng-results>

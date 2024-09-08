@@ -1,0 +1,15 @@
+<suite name = "Shopping Site Check">
+    <test name="ChromeTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.amazon.MultiBrowserTest"/>
+        </classes>
+    </test>
+
+    <test name="EdgeTests">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.amazon.MultiBrowserTest"/>
+        </classes>
+    </test>
+</suite>

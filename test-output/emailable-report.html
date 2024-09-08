@@ -8,90 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Selenium Grid Multi-Browser Suite</th></tr>
-<tr><td><a href="#t0">Edge Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">880</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,176</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">6,056</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Shopping Site Check</th></tr>
+<tr><td><a href="#t0">ChromeTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,691</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">EdgeTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,128</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">15,819</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Selenium Grid Multi-Browser Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Edge Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.Grid.AMAZON</td><td><a href="#m0">beforeMethod</a></td><td rowspan="1">1725347092853</td><td rowspan="1">793</td></tr><tr><th colspan="4">Edge Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.Grid.AMAZON</td><td><a href="#m1">afterTest</a></td><td rowspan="1">1725347093677</td><td rowspan="1">0</td></tr><tr><th colspan="4">Edge Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.Grid.AMAZON</td><td><a href="#m2">f</a></td><td rowspan="1">1725347093662</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Grid.AMAZON</td><td><a href="#m3">f</a></td><td rowspan="1">1725347095907</td><td rowspan="1">2024</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Shopping Site Check</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.amazon.MultiBrowserTest</td><td><a href="#m0">testExample</a></td><td rowspan="1">1725776824830</td><td rowspan="1">6014</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">EdgeTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.amazon.MultiBrowserTest</td><td><a href="#m1">testExample</a></td><td rowspan="1">1725776832812</td><td rowspan="1">4171</td></tr></tbody>
 </table>
-<h2>Edge Test</h2><h3 id="m0">com.Grid.AMAZON#beforeMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. No nodes support the capabilities in the request 
-Host info: host: &apos;a9091f6bc570&apos;, ip: &apos;172.17.0.2&apos;
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.153.1-microsoft-standard-WSL2&apos;, java.version: &apos;17.0.12&apos;
-Driver info: driver.version: unknown
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge}]}]
-Capabilities {browserName: MicrosoftEdge}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
-	at com.Grid.AMAZON.beforeMethod(AMAZON.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.Grid.AMAZON#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.Grid.AMAZON#f</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. No nodes support the capabilities in the request 
-Host info: host: &apos;a9091f6bc570&apos;, ip: &apos;172.17.0.2&apos;
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.153.1-microsoft-standard-WSL2&apos;, java.version: &apos;17.0.12&apos;
-Driver info: driver.version: unknown
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge}]}]
-Capabilities {browserName: MicrosoftEdge}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
-	at com.Grid.AMAZON.beforeMethod(AMAZON.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome Test</h2><h3 id="m3">com.Grid.AMAZON#f</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
-  (Session info: chrome=128.0.6613.113)
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [06658f1df2be0d685839c083e4dd0e98, get {url=https://www.amazon.in/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36659}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 128.0.6613.113, se:containerName: , se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 06658f1df2be0d685839c083e4dd0e98
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-	at com.Grid.AMAZON.f(AMAZON.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTests</h2><h3 id="m0">com.amazon.MultiBrowserTest#testExample</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>EdgeTests</h2><h3 id="m1">com.amazon.MultiBrowserTest#testExample</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
