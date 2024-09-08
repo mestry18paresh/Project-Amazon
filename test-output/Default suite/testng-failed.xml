@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Grid.AMAZON">
+      <class name="com.amazon.MultiBrowserTest">
         <methods>
-          <include name="f"/>
-          <include name="beforeMethod"/>
           <include name="afterTest"/>
+          <include name="testExample"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Grid.AMAZON -->
+      </class> <!-- com.amazon.MultiBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
